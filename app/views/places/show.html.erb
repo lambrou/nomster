@@ -3,6 +3,7 @@
   <div class="row">
   <% @place.photos.each do |photo| %>
       <div class="column">
+      <p>photo url: <%= photo.picture.url %></p>
         <figure>
           <%= image_tag photo.picture.url, class: 'place-image' %> 
           <figcaption><center><%= photo.caption %></center></figcaption>
