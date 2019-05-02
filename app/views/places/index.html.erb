@@ -1,7 +1,7 @@
 <div class="pagination-wrapper">
 <%= will_paginate @places, previous_label: h("< Previous"), next_label: h("Next >") %>
 </div>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide col-10 offset-1" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -15,10 +15,16 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="..." alt="Second slide">
+       <%= image_tag 'hikingphoto.jpg', class: 'img-fluid' %>
+         <div class="carousel-caption d-none d-md-block">
+         <h3>Discover the best trails</h3>
+      </div>
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid" src="..." alt="Third slide">
+       <%= image_tag 'party.jpg', class: 'img-fluid' %>
+         <div class="carousel-caption d-none d-md-block">
+         <h3>Explore Nightlife</h3>
+      </div>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
