@@ -17,7 +17,9 @@
   max-height: 550px;
   width: 100%;
 }
-
+.nopadding {
+   padding: 0 !important;
+}
 .carousel-caption {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 60px;
