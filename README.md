@@ -1,24 +1,13 @@
-# README
+# Nomster
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Nomster is a webapp that allows users to add places like resturaunts and venues as well as rate them.
 
-Things you may want to cover:
+### This project features:
 
-* Ruby version
+The ability to add a place, as well as pictures for that place.
 
-* System dependencies
+All images are uploaded to Amazon S3
 
-* Configuration
+Google Maps integration for every place
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rating system
