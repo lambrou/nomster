@@ -11,3 +11,7 @@ All images are uploaded to Amazon S3
 Google Maps integration for every place
 
 Rating system
+
+### Try it out!
+
+https://nomster-lambrou.herokuapp.com/
